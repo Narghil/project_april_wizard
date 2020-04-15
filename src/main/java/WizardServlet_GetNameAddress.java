@@ -20,9 +20,24 @@ public class WizardServlet_GetNameAddress extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session=req.getSession();
+        PrintWriter out = resp.getWriter();
+        RequestDispatcher rd;
 
-        RequestDispatcher rd = req.getRequestDispatcher("/makelastpage");
+        resp.setContentType("text/html; charset=UTF-8");
+        out.println("<!DOCTYPE html><html lang=hu><head><meta charset=UTF-8><title>Rendelés összesítése</title></head>");
+        out.println("<body><h1>Rendelésed:</h1>");
+        out.println("Session ID:" + session.getId() + "<br>");
+        out.println("Rendelt termék:" + session.getAttribute("cbGoods") + "<br>");
+        out.println("Neved:" + req.getParameter("tfName") + "<br>");
+        out.println("Címed:" + req.getParameter("tfAddress") + "<br>");
+        out.println("<a href=\"index.html\" target=\"_self\">Rendben, fizetek!</a>");
+
+        rd = req.getRequestDispatcher("/makelastpage");
         rd.include(req, resp);
+
+        out.println("</body></html>");
+        out.close();
+
 
         session.invalidate();
     }
