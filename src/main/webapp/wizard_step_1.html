@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Első lépés</title>
+</head>
+<body>
+<h1>Első lépés</h1>
+<h2>Válassz egy terméket!</h2>
+<form id="stepOneForm" action="/april-wizard/selectgood" method="post">
+    <label for="cbGoods">Válassz egy terméket:</label>
+    <select id="cbGoods" name="cbGoods">
+        <option value="alma">Alma</option>
+        <option value="korte">Körte</option>
+        <option value="oszibarack">Őszibarack</option>
+    </select>
+    <br />
+    <a href="#" onclick="document.getElementById('stepOneForm').submit();">Tovább</a>
+</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Második lépés</title>
+</head>
+<body>
+<h1>Első lépés</h1>
+<h2>Válassz egy terméket!</h2>
+<form id="stepTwoForm" action="/april-wizard/getnameaddress" method="post">
+    <label for="tfName">Add meg a neved:</label>
+    <input type="text" id="tfName" name="tfName">
+    <br/>
+    <label for="tfAddress">Add meg a címed:</label>
+    <input type="text" id="tfAddress" name="tfAddress">
+    <br />
+    <a href="wizard_step_1.html" target="_self">Vissza</a>
+    <a href="#" onclick="document.getElementById('stepTwoForm').submit();">Tovább</a>
+</form>
+</body>
+</html>
