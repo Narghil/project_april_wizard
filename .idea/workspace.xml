@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea6dc5d7-1cfa-4e06-a5f0-84c37475ff06" name="Default Changelist" comment="Make first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ea6dc5d7-1cfa-4e06-a5f0-84c37475ff06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/WizardServlet_MakeLastPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/WizardServlet_GetNameAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/WizardServlet_GetNameAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/april-wizard.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/april-wizard.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WizardServlet_GetNameAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WizardServlet_GetNameAddress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +28,17 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Project-April-Wizard" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -60,6 +74,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -103,36 +118,68 @@
       <option name="presentableId" value="Default" />
       <updated>1586933155820</updated>
     </task>
+    <task id="LOCAL-00001" summary="Make first commit">
+      <created>1586940130446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586940130446</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix charset error">
+      <created>1586941288866</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586941288866</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Make first commit" />
+    <MESSAGE value="Fix charset error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix charset error" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1586937888002">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1586943558560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586937888002" />
-    <state x="446" y="120" key="CommitChangelistDialog2" timestamp="1586939929763">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586943558560" />
+    <state x="446" y="120" key="CommitChangelistDialog2" timestamp="1586941288516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="446" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586939929763" />
+    <state x="446" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586941288516" />
     <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1586939798670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586939798670" />
-    <state width="1877" height="129" key="GridCell.Tab.0.bottom" timestamp="1586939716685">
+    <state width="1877" height="129" key="GridCell.Tab.0.bottom" timestamp="1586943818885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586939716685" />
-    <state width="1877" height="129" key="GridCell.Tab.0.center" timestamp="1586939716685">
+    <state width="1877" height="129" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586943818885" />
+    <state width="1877" height="129" key="GridCell.Tab.0.center" timestamp="1586943818885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586939716685" />
-    <state width="1877" height="129" key="GridCell.Tab.0.left" timestamp="1586939716685">
+    <state width="1877" height="129" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586943818885" />
+    <state width="1877" height="129" key="GridCell.Tab.0.left" timestamp="1586943818885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586939716685" />
-    <state width="1877" height="129" key="GridCell.Tab.0.right" timestamp="1586939716685">
+    <state width="1877" height="129" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586943818885" />
+    <state width="1877" height="129" key="GridCell.Tab.0.right" timestamp="1586943818885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586939716685" />
+    <state width="1877" height="129" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586943818885" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1586940941238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586940941238" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1586941300301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586941300301" />
+    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586941293616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586941293616" />
   </component>
 </project>
