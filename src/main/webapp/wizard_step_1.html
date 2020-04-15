@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Első lépés</title>
@@ -10,9 +10,12 @@
 <form id="stepOneForm" action="/april-wizard/selectgood" method="post">
     <label for="cbGoods">Válassz egy terméket:</label>
     <select id="cbGoods" name="cbGoods">
-        <option value="Alma">Alma</option>
-        <option value="Körte">Körte</option>
-        <option value="Őszibarack">Őszibarack</option>
+	<!--
+        <option value="alma">Alma</option>
+        <option value="korte">Körte</option>
+        <option value="oszibarack">Őszibarack</option>
+	-->
+	<replace>
     </select>
     <br />
     <a href="#" onclick="document.getElementById('stepOneForm').submit();">Tovább</a>

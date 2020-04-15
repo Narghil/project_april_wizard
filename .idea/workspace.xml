@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea6dc5d7-1cfa-4e06-a5f0-84c37475ff06" name="Default Changelist" comment="">
+    <list default="true" id="ea6dc5d7-1cfa-4e06-a5f0-84c37475ff06" name="Default Changelist" comment="Redo Improvement, try getRequestDispatcher with one line - does not work.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/WizardServlet_MakeComboBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WizardServlet_MakeFirstHtml.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -9,11 +11,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/WizardServlet_GetNameAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/WizardServlet_GetNameAddress.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/april-wizard.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/april-wizard.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WizardServlet_GetNameAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WizardServlet_GetNameAddress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WizardServlet_MakeLastPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WizardServlet_MakeLastPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/wizard_step_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/wizard_step_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/wizard_step_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/wizard_step_2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,55 +145,67 @@
       <option name="project" value="LOCAL" />
       <updated>1586944224956</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Redo Improvement, try getRequestDispatcher with one line - does not work.">
+      <created>1586945450660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586945450660</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Make first commit" />
     <MESSAGE value="Fix charset error" />
     <MESSAGE value="Improvement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improvement" />
+    <MESSAGE value="Redo Improvement, try getRequestDispatcher with one line - does not work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Redo Improvement, try getRequestDispatcher with one line - does not work." />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1586943558560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586943558560" />
-    <state x="446" y="120" key="CommitChangelistDialog2" timestamp="1586944224544">
+    <state x="577" y="141" key="CommitChangelistDialog2" timestamp="1586956085428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="446" y="120" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586944224544" />
+    <state x="577" y="141" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586956085428" />
     <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1586939798670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586939798670" />
-    <state width="1877" height="129" key="GridCell.Tab.0.bottom" timestamp="1586945294045">
+    <state width="1877" height="129" key="GridCell.Tab.0.bottom" timestamp="1586956009150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586945294045" />
-    <state width="1877" height="129" key="GridCell.Tab.0.center" timestamp="1586945294045">
+    <state width="1877" height="129" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586956009150" />
+    <state width="1877" height="129" key="GridCell.Tab.0.center" timestamp="1586956009150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586945294045" />
-    <state width="1877" height="129" key="GridCell.Tab.0.left" timestamp="1586945294045">
+    <state width="1877" height="129" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586956009150" />
+    <state width="1877" height="129" key="GridCell.Tab.0.left" timestamp="1586956009150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586945294045" />
-    <state width="1877" height="129" key="GridCell.Tab.0.right" timestamp="1586945294045">
+    <state width="1877" height="129" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586956009150" />
+    <state width="1877" height="129" key="GridCell.Tab.0.right" timestamp="1586956009150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586945294045" />
+    <state width="1877" height="129" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586956009150" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1586940941238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586940941238" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1586944233245">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1586945458317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586944233245" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586945458317" />
     <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586941293616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="771" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586941293616" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586952156125">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586952156125" />
   </component>
 </project>
